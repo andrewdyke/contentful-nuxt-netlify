@@ -39,7 +39,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/css/main.scss"],
+  css: ["~/css/main.css"],
   render: {
     bundleRenderer: {
       shouldPreload: (file, type) => {

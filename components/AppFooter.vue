@@ -6,7 +6,7 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 footer {
   background: url(../assets/footer-bk.jpg) no-repeat center bottom, #112545;
   background-size: 100% auto;

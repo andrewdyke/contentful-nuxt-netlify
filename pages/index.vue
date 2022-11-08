@@ -35,7 +35,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -48,6 +48,11 @@ section {
   p {
     margin-top: 0;
   }
+}
+
+section h2, 
+section p {
+  margin-top: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,10 +71,6 @@ section {
 .description {
   grid-area: 2 / 3 / 3 / 6;
 }
-// .description {
-//   grid-area: 3 / 3 / 4 / 6;
-// }
-
 .more {
   color: #eee;
 }
