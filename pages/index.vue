@@ -44,23 +44,16 @@ section {
   grid-row-gap: 20px;
   padding: 30px 0;
   min-height: 250px;
-  h2,
-  p {
-    margin-top: 0;
-  }
 }
-
 section h2, 
 section p {
   margin-top: 0;
 }
-
 @media only screen and (max-width: 600px) {
   section {
     grid-template-rows: 40px 20px 1fr;
   }
 }
-
 .image {
   grid-area: 1 / 1 / 4 / 3;
   opacity: 0.8;
